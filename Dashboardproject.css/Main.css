@@ -1,10 +1,14 @@
 html ,
 body{
-	width: 100%;
+	width: 1405px;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #212143;
 	/*background-color: #3C0366;*/
 	margin-left: 55px;
+	margin-top: 15px;
+	margin-right: 25px;
+	font-family: Roboto;
+	overflow: hidden;
 }
