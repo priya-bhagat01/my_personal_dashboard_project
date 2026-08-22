@@ -27,4 +27,6 @@ input{
 	font-family: inherit;
 	font-size: inherit;
 	color: inherit;
+	display: inline-block;
+	width: 50px;
 }

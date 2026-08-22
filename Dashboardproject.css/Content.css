@@ -25,20 +25,33 @@
 .productivity-tracker ,
 .notes-tracker ,
 .upcoming-tracker{
+	padding-left: 20px;
 	color: #fff;
 	border: 0.2px solid dimgray;
 	border-radius: 15px;
-	width: 300px;
-	object-fit: contain;
+	width: 220px;
+	object-fit: contain;/*
+	display: flex;*/
+}
+.study-tracker ,
+.tasks-tracker ,
+.score-tracker ,
+.streak-tracker ,
+.water-tracker ,
+.steps-tracker{
 	display: flex;
 }
 .tracker-topic{
 	font-size: 16px;
+	display: inline-block;
+	width: 130px;
 }
 .text-grid{
 	display: block;
+	width: 100px;
 }
 .tracker-image{
+	padding-top: 28px;
 	display: flex;
 	object-fit: contain;
 	mix-blend-mode: screen;
@@ -50,4 +63,8 @@
 .water-image ,
 .steps-image {
 	width: 120px;
+}
+.track-input{
+	width: 70px;
+	padding-bottom: 20px;
 }
