@@ -32,6 +32,8 @@
 	width: 220px;
 	object-fit: contain;/*
 	display: flex;*/
+	margin-bottom: 15px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
 }
 .study-tracker ,
 .tasks-tracker ,
@@ -58,7 +60,7 @@
 }
 .study-line-tracker ,
 .tasks-line-tracker ,
-.score-tracker ,
+.score-image-tracker ,
 .streak-image ,
 .water-image ,
 .steps-image {
