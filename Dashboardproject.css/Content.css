@@ -1,0 +1,53 @@
+.tracker-grid{
+	display: grid;
+	column-gap: 5px;
+	row-gap: 5px;
+}
+.goals{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 5px;
+	row-gap: 5px;
+}
+.notes-goals{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 5px;
+	row-gap: 5px;
+}
+.study-tracker ,
+.tasks-tracker ,
+.score-tracker ,
+.streak-tracker ,
+.water-tracker ,
+.steps-tracker ,
+.schedule-tracker ,
+.productivity-tracker ,
+.notes-tracker ,
+.upcoming-tracker{
+	color: #fff;
+	border: 0.2px solid dimgray;
+	border-radius: 15px;
+	width: 300px;
+	object-fit: contain;
+	display: flex;
+}
+.tracker-topic{
+	font-size: 16px;
+}
+.text-grid{
+	display: block;
+}
+.tracker-image{
+	display: flex;
+	object-fit: contain;
+	mix-blend-mode: screen;
+}
+.study-line-tracker ,
+.tasks-line-tracker ,
+.score-tracker ,
+.streak-image ,
+.water-image ,
+.steps-image {
+	width: 120px;
+}

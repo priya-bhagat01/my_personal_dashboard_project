@@ -12,3 +12,19 @@ body{
 	font-family: Roboto;/*
 	overflow: hidden;*/
 }
+img{
+	mix-blend-mode: screen;
+}
+input{
+	text-decoration: none;
+	appearance: none;
+	background: transparent;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
