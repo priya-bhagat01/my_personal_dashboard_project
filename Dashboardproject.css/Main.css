@@ -1,7 +1,5 @@
 html ,
 body{
-	width: 1405px;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #212143;
@@ -28,5 +26,5 @@ input{
 	font-size: inherit;
 	color: inherit;
 	display: inline-block;
-	width: 50px;
+	width: 30px;
 }

@@ -1,7 +1,7 @@
 .header{
 	display: flex;
-	width: 1400px;
-	height: 60px;
+	width: 665px;
+	height: 75px;
 	flex: 1;
 }
 .emoji{
@@ -13,7 +13,7 @@
 .user-message{
 	font-size: 20px;
 	color: #fff;
-	width: 1050px;
+	width: 756px;
 	font-weight: 500;
 }
 .hi-user{
